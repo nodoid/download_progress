@@ -1,0 +1,8 @@
+packages/*
+download_progress/bin/*
+download_progress/obj/*
+Droid/bin/*
+Droid/obj/*
+iOS/bin/*
+iOS/obj/*
+
