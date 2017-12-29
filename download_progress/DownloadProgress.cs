@@ -51,7 +51,8 @@ namespace download_progress
                 }
             };
 
-            Device.OnPlatform(Android: () => progressStack.Padding = new Thickness(0, 4));
+            if (Device.RuntimePlatform == Device.Android)
+                progressStack.Padding = new Thickness(0, 4);
 
             Content = progressStack;
 
